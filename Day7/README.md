@@ -1,8 +1,7 @@
 # Day 7 - Azure Artifacts 👨‍💻
 
 ## Check out the video below for Day7 👇
-
-[![Day7/16 - Azure Artifacts ](https://img.youtube.com/vi/krK4HTmaCJc/sddefault.jpg)](https://youtu.be/krK4HTmaCJc)
+(https://youtu.be/krK4HTmaCJc)
 
 ## Setup your Azure repos with the same application code
 
@@ -19,6 +18,14 @@ https://github.com/piyushsachdeva/nike_landing_page.git
 ## Architectural diagram used in the video
 
 ![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/f7facb49-af0d-4f6a-8e14-ae8444423c91)
+
+
+We have 3 views in the Azure Artifacts and the artifact is published into these view we can set the rule in Azure app servie to trigger the Deploy Pipeline.
+
+To perform actions on this artifact the Feed should have 2 permission i.e. on organization level and project level. It should have Contributor role.
+
+1)Project Collection Build Service 
+2)Projcect_name Build Service
 
 ## Build Pipeline YAML code:
 
